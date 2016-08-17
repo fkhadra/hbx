@@ -67,7 +67,6 @@
 
         function updateClock() {
             var t = getTimeRemaining(endtime);
-            console.log(t);
             daysSpan.innerHTML = t.days;
             hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
             minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
