@@ -24,7 +24,12 @@ body{
     color: #ffffff;
     font-size: 60px;
     text-align: center;
-    font-weight: bold;
+}
+
+.event__pres{
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
 }
 
 #clockdiv{
@@ -61,17 +66,18 @@ a{
     display: inline-block;
     margin-bottom: 1rem;
     color: rgba(255,255,255,0.7);
-    background-color: rgba(255,255,255,0.08);
+    /*background-color: rgba(255,255,255,0.08);*/
     border-color: rgba(255,255,255,0.2);
     border-style: solid;
     border-width: 1px;
     border-radius: 0.3rem;
     transition: color 0.2s,background-color 0.2s,border-color 0.2s;
     font-size: 20px;
+    background: #da2c3b;
+    padding: 0.75rem 1rem;
 }
-
-@media screen and (min-width: 64em) {
-    .btn {
-        padding: 0.75rem 1rem;
+@media (max-width: 640px) {
+    .event__name{
+        font-size: 40px;
     }
 }
